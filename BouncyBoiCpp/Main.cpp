@@ -100,7 +100,7 @@ int main()
 	"",
 	"GAME  OBJECTIVE",
 	"Keep  the  rabbit  bouncing!",
-	"For  how  long,  who  knows!",
+	"For  how  long  who  knows!",
 	"Be  careful  though!" ,
 	"He  may  eat  a  small  white  star  and  speed  up!"};
 
@@ -232,8 +232,8 @@ int main()
 			for (int i = 0; i < cs.buffAmount; i++) {
 				struct powerUp holder = cs.buffs[i];
 				if (overlap(holder.row, holder.col, cs.boi.row, cs.boi.col, cs.boi.size)) {
-					cs.boi.speedR = cs.boi.speedR * 1.5;
-					cs.boi.speedC = cs.boi.speedC * 1.5;
+					cs.boi.speedR = cs.boi.speedR * 1.3;
+					cs.boi.speedC = cs.boi.speedC * 1.3;
 
 					//add buff to slow down checker
 					cs.buffdurations[cs.currentBuffs] = 35;
