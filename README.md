@@ -1,7 +1,7 @@
 # BouncyBoi C++
 A remake of the GBA emulator game Bouncy Boi in C++ for PC featuring an adorable rabbit
 
-![BOI](BouncyBoiCpp/images/bouncingboi.gif)
+![BOI](bouncingboi.gif)
 
 A cute little moon rabbit is just too happy to eat his rice cakes! BOING, oh no
 there he goes. Our little moon rabbit has jumped into space! Help him land on
